@@ -45,4 +45,4 @@ spec:
               - /tmp/healthy
           resources:
             requests:
-              cpu: 10m
+              cpu: 11m
