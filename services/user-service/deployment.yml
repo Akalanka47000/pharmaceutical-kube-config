@@ -29,22 +29,22 @@ spec:
                 name: user-service-secret
           ports:
             - containerPort: 8080
-          livenessProbe:
-            httpGet:
-              path: /system/health
-              port: 8080
-              scheme: HTTP
-            initialDelaySeconds: 10
-            periodSeconds: 10
-            timeoutSeconds: 3
-          readinessProbe:
-            httpGet:
-              path: /system/health
-              port: 8080
-              scheme: HTTP
-            initialDelaySeconds: 10
-            periodSeconds: 10
-            timeoutSeconds: 3
+          # livenessProbe:
+          #   httpGet:
+          #     path: /system/health
+          #     port: 8080
+          #     scheme: HTTP
+          #   initialDelaySeconds: 10
+          #   periodSeconds: 10
+          #   timeoutSeconds: 3
+          # readinessProbe:
+          #   httpGet:
+          #     path: /system/health
+          #     port: 8080
+          #     scheme: HTTP
+          #   initialDelaySeconds: 10
+          #   periodSeconds: 10
+          #   timeoutSeconds: 3
           resources:
             requests:
               cpu: 10m
