@@ -6,5 +6,5 @@
 
 - Run the following command to seal a `secrets.yml` file
     ```bash  
-    cat secrets.yml | kubeseal --format yaml --controller-namespace default --controller-name sealed-secrets > sealed-secrets.yml
+    cat secrets.yml | kubeseal --format yaml --controller-namespace kube-system --controller-name sealed-secrets > sealed-secrets.yml
     ```
