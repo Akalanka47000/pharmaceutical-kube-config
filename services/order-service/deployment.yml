@@ -2,13 +2,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: buyer-service
+  name: order-service
   labels:
-    app: buyer-service
+    app: order-service
 spec:
   selector:
     matchLabels:
-      app: buyer-service
+      app: order-service
   replicas: 1
   strategy:
     type: RollingUpdate
@@ -17,16 +17,16 @@ spec:
       maxSurge: 1
   template:
     metadata:
-      name: buyer-service
+      name: order-service
       labels:
-        app: buyer-service
+        app: order-service
     spec:
       containers:
-        - name: buyer-service
-          image: ghcr.io/akalanka47000/pharmaceutical-buyer-service:5a7149af2dda3d29b1f834f3cd0dfb841e2da327-1
+        - name: order-service
+          image: ghcr.io/akalanka47000/pharmaceutical-order-service:5a7149af2dda3d29b1f834f3cd0dfb841e2da327-1
           envFrom:
             - secretRef:
-                name: buyer-service-secret
+                name: order-service-secret
           ports:
             - containerPort: 8080
           livenessProbe:
