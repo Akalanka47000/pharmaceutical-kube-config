@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: product-service
-          image: ghcr.io/akalanka47000/pharmaceutical-product-service:60b9396c9cfab6c5ba016e7ea0f3ab326d7593d7-1
+          image: ghcr.io/akalanka47000/pharmaceutical-product-service:5456e58b9c18c2c664638a07b8c8a34ca90290ee-1
           envFrom:
             - secretRef:
                 name: product-service-secret
