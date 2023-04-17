@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: sms-service
-          image: ghcr.io/akalanka47000/pharmaceutical-sms-service:882950a79650f180589193ccfdb4ac1f25f250fa-1
+          image: ghcr.io/akalanka47000/pharmaceutical-sms-service:5456e58b9c18c2c664638a07b8c8a34ca90290ee-1
           envFrom:
             - secretRef:
                 name: sms-service-secret
