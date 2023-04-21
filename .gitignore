@@ -1,2 +1,2 @@
-argocd
+argocd/secrets.yml
 services/**/secrets.yml
