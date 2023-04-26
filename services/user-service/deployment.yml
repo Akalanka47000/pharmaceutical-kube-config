@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: ghcr.io/akalanka47000/pharmaceutical-user-service:879e4bc24fb539e661c796ccea185e3ef704b033-1
+          image: ghcr.io/akalanka47000/pharmaceutical-user-service:7f0147dc0eef32f9906ee4dfe4e97841127d50b1-1
           envFrom:
             - secretRef:
                 name: user-service-secret
