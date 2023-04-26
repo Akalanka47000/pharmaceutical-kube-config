@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: orchestrator
-          image: ghcr.io/akalanka47000/pharmaceutical-orchestrator:f286ffeecd2c1e2b6e325918d4513cf7557ad55d-1
+          image: ghcr.io/akalanka47000/pharmaceutical-orchestrator:879e4bc24fb539e661c796ccea185e3ef704b033-1
           envFrom:
             - secretRef:
                 name: orchestrator-secret
