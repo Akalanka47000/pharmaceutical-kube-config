@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: ghcr.io/akalanka47000/pharmaceutical-order-service:f286ffeecd2c1e2b6e325918d4513cf7557ad55d-1
+          image: ghcr.io/akalanka47000/pharmaceutical-order-service:e65bd640617eb24d2a8c0dabcdf7fd55fed078ed-1
           envFrom:
             - secretRef:
                 name: order-service-secret
