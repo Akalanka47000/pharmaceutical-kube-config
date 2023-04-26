@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: delivery-service
-          image: ghcr.io/akalanka47000/pharmaceutical-delivery-service:e65bd640617eb24d2a8c0dabcdf7fd55fed078ed-1
+          image: ghcr.io/akalanka47000/pharmaceutical-delivery-service:7f0147dc0eef32f9906ee4dfe4e97841127d50b1-1
           envFrom:
             - secretRef:
                 name: delivery-service-secret
