@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/akalanka47000/pharmaceutical-frontend:8a403623d7020ba927f8a485ff902379d77ccc40-1
+          image: ghcr.io/akalanka47000/pharmaceutical-frontend:992790ca0e7beb2a2831a3be3945bc0e02665e31-1
           envFrom:
             - secretRef:
                 name: frontend-secret
