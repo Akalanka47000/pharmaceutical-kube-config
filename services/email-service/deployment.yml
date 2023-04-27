@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: email-service
-          image: ghcr.io/akalanka47000/pharmaceutical-email-service:b9a4ad09a46d60ff83c1031b30090c1954660192-1
+          image: ghcr.io/akalanka47000/pharmaceutical-email-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
           envFrom:
             - secretRef:
                 name: email-service-secret
