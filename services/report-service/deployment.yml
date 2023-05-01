@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: report-service
-          image: ghcr.io/akalanka47000/pharmaceutical-report-service:86a79cb125ecfbc3a3498d6718ab6e07c5809aad-1
+          image: ghcr.io/akalanka47000/pharmaceutical-report-service:f2ea20401e8a6c0d2cb9ed2fbc115f134a4d2cb9-1
           envFrom:
             - secretRef:
                 name: report-service-secret
