@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: payment-service
-          image: ghcr.io/akalanka47000/pharmaceutical-payment-service:424d25f4636c7076511c7fd3a2e3f626e81916c8-1
+          image: ghcr.io/akalanka47000/pharmaceutical-payment-service:04312330bdff46b43c469d0f0ce1b0cdcd59bc21-1
           envFrom:
             - secretRef:
                 name: payment-service-secret
