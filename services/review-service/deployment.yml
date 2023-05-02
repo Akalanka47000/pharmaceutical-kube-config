@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: review-service
-          image: ghcr.io/akalanka47000/pharmaceutical-review-service:424d25f4636c7076511c7fd3a2e3f626e81916c8-1
+          image: ghcr.io/akalanka47000/pharmaceutical-review-service:f6a535f9c10db99d97d4112f7fbdcf27cff3d0b6-1
           envFrom:
             - secretRef:
                 name: review-service-secret
