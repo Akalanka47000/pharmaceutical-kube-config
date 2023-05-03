@@ -151,24 +151,88 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-05-01T17:26:42Z"
-    deployedAt: "2023-05-01T17:26:42Z"
-    id: 0
-    revision: 1f7717a53328ca8fae6c04735114bc7b4ce606d8
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 2
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
     source:
       path: services/admin-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:32:22Z"
-    deployedAt: "2023-05-01T17:32:22Z"
-    id: 1
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+  - deployStartedAt: "2023-05-01T18:52:13Z"
+    deployedAt: "2023-05-01T18:52:13Z"
+    id: 3
+    revision: 7c33f44cffc8ec177b581e9730701c8770854395
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T19:16:13Z"
+    deployedAt: "2023-05-01T19:16:13Z"
+    id: 4
+    revision: 1c61fdab1c3198746ae69fadac871fa3a6fe4656
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 5
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 6
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 7
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 8
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 9
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 10
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/admin-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 11
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     source:
       path: services/admin-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -177,11 +241,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -211,12 +275,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/admin-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -244,7 +308,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-admin-service:86a79cb125ecfbc3a3498d6718ab6e07c5809aad-1
+    - ghcr.io/akalanka47000/pharmaceutical-admin-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -254,7 +318,7 @@ status:
         path: services/admin-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -285,70 +349,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-03-09T16:38:37Z"
-    deployedAt: "2023-03-09T16:38:40Z"
-    id: 2
-    revision: d618aa67039e46cb2859ad012f672ca24964821c
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:54:29Z"
-    deployedAt: "2023-03-09T18:54:30Z"
-    id: 3
-    revision: 4852e9479d95e2f479049e2552c2efbef19dc3e6
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:57:32Z"
-    deployedAt: "2023-03-09T18:57:34Z"
-    id: 4
-    revision: c988a1c6dc4f66857e67f02af43ed053f9268d29
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:18:38Z"
-    deployedAt: "2023-03-09T19:18:40Z"
-    id: 5
-    revision: da95c44dd1b1b93b32c1912621a66f0675121d2c
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:21:38Z"
-    deployedAt: "2023-03-09T19:21:39Z"
-    id: 6
-    revision: 3b6b6b0cfaddcc3fa46ce9effb268466bc46932e
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T10:12:54Z"
-    deployedAt: "2023-03-10T10:12:56Z"
-    id: 7
-    revision: 079ca1f5b0b3575b6480eb5e2cdda2e801769cae
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:03:50Z"
-    deployedAt: "2023-03-10T18:03:52Z"
-    id: 8
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-04-21T16:58:35Z"
-    deployedAt: "2023-04-21T16:58:35Z"
-    id: 9
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/auth-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 10
@@ -365,8 +365,72 @@ status:
       path: services/auth-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:14Z"
+    id: 12
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 13
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 14
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 15
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:05Z"
+    id: 16
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 17
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 18
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 19
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/auth-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -375,13 +439,13 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - PruneLast=true
         - CreateNamespace=true
         - ApplyOutOfSyncOnly=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: bitnami.com
@@ -393,12 +457,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/auth-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:23Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -426,7 +490,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-auth-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-auth-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -436,7 +500,7 @@ status:
         path: services/auth-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -465,14 +529,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-04-21T17:02:41Z"
-    deployedAt: "2023-04-21T17:02:42Z"
-    id: 0
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/delivery-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 1
@@ -489,8 +545,72 @@ status:
       path: services/delivery-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:14Z"
+    id: 3
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:59:47Z"
+    deployedAt: "2023-05-02T06:59:47Z"
+    id: 4
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 5
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 6
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 7
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 8
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 9
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 10
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/delivery-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -499,11 +619,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -533,12 +653,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/delivery-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -566,7 +686,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-delivery-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-delivery-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -576,7 +696,7 @@ status:
         path: services/delivery-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -605,70 +725,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-03-09T16:38:37Z"
-    deployedAt: "2023-03-09T16:38:40Z"
-    id: 4
-    revision: d618aa67039e46cb2859ad012f672ca24964821c
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:54:31Z"
-    deployedAt: "2023-03-09T18:54:32Z"
-    id: 5
-    revision: 4852e9479d95e2f479049e2552c2efbef19dc3e6
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:57:32Z"
-    deployedAt: "2023-03-09T18:57:35Z"
-    id: 6
-    revision: c988a1c6dc4f66857e67f02af43ed053f9268d29
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:18:38Z"
-    deployedAt: "2023-03-09T19:18:41Z"
-    id: 7
-    revision: da95c44dd1b1b93b32c1912621a66f0675121d2c
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:21:41Z"
-    deployedAt: "2023-03-09T19:21:42Z"
-    id: 8
-    revision: 3b6b6b0cfaddcc3fa46ce9effb268466bc46932e
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T10:12:56Z"
-    deployedAt: "2023-03-10T10:12:57Z"
-    id: 9
-    revision: 079ca1f5b0b3575b6480eb5e2cdda2e801769cae
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:03:50Z"
-    deployedAt: "2023-03-10T18:03:52Z"
-    id: 10
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-04-21T16:58:35Z"
-    deployedAt: "2023-04-21T16:58:35Z"
-    id: 11
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/email-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 12
@@ -685,8 +741,72 @@ status:
       path: services/email-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 14
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 15
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 16
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 17
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 18
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 19
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:22:37Z"
+    deployedAt: "2023-05-03T04:22:37Z"
+    id: 20
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 21
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/email-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -695,11 +815,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - PruneLast=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -729,12 +849,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/email-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -762,7 +882,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-email-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-email-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -772,7 +892,7 @@ status:
         path: services/email-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -798,24 +918,88 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-05-01T17:26:09Z"
-    deployedAt: "2023-05-01T17:26:10Z"
-    id: 0
-    revision: 1f7717a53328ca8fae6c04735114bc7b4ce606d8
+  - deployStartedAt: "2023-05-01T19:16:13Z"
+    deployedAt: "2023-05-01T19:16:13Z"
+    id: 5
+    revision: 1c61fdab1c3198746ae69fadac871fa3a6fe4656
     source:
       path: services/frontend
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:32:22Z"
-    deployedAt: "2023-05-01T17:32:22Z"
-    id: 1
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+  - deployStartedAt: "2023-05-01T19:22:13Z"
+    deployedAt: "2023-05-01T19:22:13Z"
+    id: 6
+    revision: f688635eaf6983fdb66c0092f1bea63492680736
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:56:47Z"
+    deployedAt: "2023-05-02T06:56:47Z"
+    id: 7
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:48:21Z"
+    deployedAt: "2023-05-02T11:48:21Z"
+    id: 8
+    revision: c49af6560f8c1afc2b258dfc033afaad687a5ea6
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:54:21Z"
+    deployedAt: "2023-05-02T11:54:21Z"
+    id: 9
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 10
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 11
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:27:04Z"
+    deployedAt: "2023-05-02T14:27:04Z"
+    id: 12
+    revision: efd5c3ba101c728b9ca1474670674ee0401dff97
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:28:16Z"
+    deployedAt: "2023-05-03T04:28:17Z"
+    id: 13
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/frontend
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 14
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     source:
       path: services/frontend
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -824,11 +1008,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -858,12 +1042,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/frontend
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -891,7 +1075,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-frontend:c59d154c62d3a96cb9d485ad5e3f76c8e11c34c1-1
+    - ghcr.io/akalanka47000/pharmaceutical-frontend:dd2657a68e316a53d29cc6eaad896ca90c99804c-1
   sync:
     comparedTo:
       destination:
@@ -901,7 +1085,7 @@ status:
         path: services/frontend
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -973,7 +1157,7 @@ status:
         path: ingress
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:21Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - group: networking.k8s.io
     health:
@@ -998,7 +1182,7 @@ status:
         path: ingress
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1028,88 +1212,88 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-03-09T16:38:37Z"
-    deployedAt: "2023-03-09T16:38:40Z"
-    id: 3
-    revision: d618aa67039e46cb2859ad012f672ca24964821c
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:14Z"
+    id: 13
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:54:31Z"
-    deployedAt: "2023-03-09T18:54:32Z"
-    id: 4
-    revision: 4852e9479d95e2f479049e2552c2efbef19dc3e6
+  - deployStartedAt: "2023-05-01T18:22:13Z"
+    deployedAt: "2023-05-01T18:22:13Z"
+    id: 14
+    revision: 1da4cb094790bc178b7c433eecc6d47a366bd2a1
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:57:32Z"
-    deployedAt: "2023-03-09T18:57:35Z"
-    id: 5
-    revision: c988a1c6dc4f66857e67f02af43ed053f9268d29
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 15
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:18:38Z"
-    deployedAt: "2023-03-09T19:18:41Z"
-    id: 6
-    revision: da95c44dd1b1b93b32c1912621a66f0675121d2c
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 16
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:21:41Z"
-    deployedAt: "2023-03-09T19:21:42Z"
-    id: 7
-    revision: 3b6b6b0cfaddcc3fa46ce9effb268466bc46932e
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:05Z"
+    id: 17
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T10:12:56Z"
-    deployedAt: "2023-03-10T10:12:57Z"
-    id: 8
-    revision: 079ca1f5b0b3575b6480eb5e2cdda2e801769cae
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 18
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:03:46Z"
-    deployedAt: "2023-03-10T18:03:47Z"
-    id: 9
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
+  - deployStartedAt: "2023-05-02T14:33:03Z"
+    deployedAt: "2023-05-02T14:33:03Z"
+    id: 19
+    revision: 93040708c23fa4b82f4f9a0da7bab9c072328b8b
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-04-21T16:58:35Z"
-    deployedAt: "2023-04-21T16:58:35Z"
-    id: 10
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 20
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:23:47Z"
-    deployedAt: "2023-05-01T17:23:48Z"
-    id: 11
-    revision: 1f7717a53328ca8fae6c04735114bc7b4ce606d8
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 21
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:32:22Z"
-    deployedAt: "2023-05-01T17:32:23Z"
-    id: 12
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+  - deployStartedAt: "2023-05-03T04:32:50Z"
+    deployedAt: "2023-05-03T04:32:50Z"
+    id: 22
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     source:
       path: services/orchestrator
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:23Z"
+    finishedAt: "2023-05-03T04:32:50Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1118,12 +1302,12 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - PruneLast=true
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:32:50Z"
     syncResult:
       resources:
       - group: ""
@@ -1153,12 +1337,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/orchestrator
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:23Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1186,7 +1370,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-orchestrator:c59d154c62d3a96cb9d485ad5e3f76c8e11c34c1-1
+    - ghcr.io/akalanka47000/pharmaceutical-orchestrator:dd2657a68e316a53d29cc6eaad896ca90c99804c-1
   sync:
     comparedTo:
       destination:
@@ -1196,7 +1380,7 @@ status:
         path: services/orchestrator
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1225,32 +1409,88 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-04-21T17:01:35Z"
-    deployedAt: "2023-04-21T17:01:35Z"
-    id: 0
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 3
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
     source:
       path: services/order-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:23:47Z"
-    deployedAt: "2023-05-01T17:23:48Z"
-    id: 1
-    revision: 1f7717a53328ca8fae6c04735114bc7b4ce606d8
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 4
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
     source:
       path: services/order-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
-  - deployStartedAt: "2023-05-01T17:32:22Z"
-    deployedAt: "2023-05-01T17:32:22Z"
-    id: 2
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+  - deployStartedAt: "2023-05-02T11:45:37Z"
+    deployedAt: "2023-05-02T11:45:37Z"
+    id: 5
+    revision: c49af6560f8c1afc2b258dfc033afaad687a5ea6
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 6
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 7
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 8
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:27:04Z"
+    deployedAt: "2023-05-02T14:27:04Z"
+    id: 9
+    revision: efd5c3ba101c728b9ca1474670674ee0401dff97
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 10
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:22:37Z"
+    deployedAt: "2023-05-03T04:22:37Z"
+    id: 11
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/order-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 12
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     source:
       path: services/order-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1259,11 +1499,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -1293,12 +1533,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/order-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1326,7 +1566,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-order-service:c59d154c62d3a96cb9d485ad5e3f76c8e11c34c1-2
+    - ghcr.io/akalanka47000/pharmaceutical-order-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -1336,7 +1576,7 @@ status:
         path: services/order-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1370,8 +1610,72 @@ status:
       path: services/payment-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 1
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:59:47Z"
+    deployedAt: "2023-05-02T06:59:47Z"
+    id: 2
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 3
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 4
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 5
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:05Z"
+    id: 6
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 7
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 8
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/payment-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:29:50Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1380,17 +1684,17 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:29:50Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
         hookPhase: Running
         kind: Service
-        message: service/payment-service created
+        message: service/payment-service unchanged
         name: payment-service
         namespace: pharmaceutical
         status: Synced
@@ -1399,7 +1703,7 @@ status:
       - group: apps
         hookPhase: Running
         kind: Deployment
-        message: deployment.apps/payment-service created
+        message: deployment.apps/payment-service unchanged
         name: payment-service
         namespace: pharmaceutical
         status: Synced
@@ -1408,18 +1712,18 @@ status:
       - group: bitnami.com
         hookPhase: Running
         kind: SealedSecret
-        message: sealedsecret.bitnami.com/payment-service-secret created
+        message: sealedsecret.bitnami.com/payment-service-secret configured
         name: payment-service-secret
         namespace: pharmaceutical
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/payment-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:29:50Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1447,7 +1751,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-payment-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-payment-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -1457,7 +1761,7 @@ status:
         path: services/payment-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1486,14 +1790,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-04-21T17:00:54Z"
-    deployedAt: "2023-04-21T17:00:54Z"
-    id: 0
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/product-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 1
@@ -1510,8 +1806,72 @@ status:
       path: services/product-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:14Z"
+    deployedAt: "2023-05-01T18:16:14Z"
+    id: 3
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 4
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 5
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 6
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 7
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 8
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:28:16Z"
+    deployedAt: "2023-05-03T04:28:17Z"
+    id: 9
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 10
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/product-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1520,11 +1880,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -1554,12 +1914,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/product-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1587,7 +1947,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-product-service:c59d154c62d3a96cb9d485ad5e3f76c8e11c34c1-1
+    - ghcr.io/akalanka47000/pharmaceutical-product-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -1597,7 +1957,7 @@ status:
         path: services/product-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1623,14 +1983,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-05-01T17:27:14Z"
-    deployedAt: "2023-05-01T17:27:14Z"
-    id: 0
-    revision: 1f7717a53328ca8fae6c04735114bc7b4ce606d8
-    source:
-      path: services/report-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:32:22Z"
     deployedAt: "2023-05-01T17:32:22Z"
     id: 1
@@ -1639,8 +1991,80 @@ status:
       path: services/report-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 2
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 3
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 4
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 5
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 6
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:27:04Z"
+    deployedAt: "2023-05-02T14:27:04Z"
+    id: 7
+    revision: efd5c3ba101c728b9ca1474670674ee0401dff97
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 8
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 9
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 10
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/report-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1649,11 +2073,11 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -1683,12 +2107,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/report-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1716,7 +2140,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-report-service:86a79cb125ecfbc3a3498d6718ab6e07c5809aad-1
+    - ghcr.io/akalanka47000/pharmaceutical-report-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -1726,7 +2150,7 @@ status:
         path: services/report-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1766,8 +2190,72 @@ status:
       path: services/review-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 2
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:56:47Z"
+    deployedAt: "2023-05-02T06:56:47Z"
+    id: 3
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:54:21Z"
+    deployedAt: "2023-05-02T11:54:21Z"
+    id: 4
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 5
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:05Z"
+    id: 6
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:05Z"
+    id: 7
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:25:16Z"
+    deployedAt: "2023-05-03T04:25:16Z"
+    id: 8
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 9
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/review-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1776,9 +2264,9 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -1808,12 +2296,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/review-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -1841,7 +2329,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-review-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-review-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -1851,7 +2339,7 @@ status:
         path: services/review-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -1881,70 +2369,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-03-09T16:38:37Z"
-    deployedAt: "2023-03-09T16:38:40Z"
-    id: 3
-    revision: d618aa67039e46cb2859ad012f672ca24964821c
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:54:29Z"
-    deployedAt: "2023-03-09T18:54:31Z"
-    id: 4
-    revision: 4852e9479d95e2f479049e2552c2efbef19dc3e6
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:57:33Z"
-    deployedAt: "2023-03-09T18:57:36Z"
-    id: 5
-    revision: c988a1c6dc4f66857e67f02af43ed053f9268d29
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:18:38Z"
-    deployedAt: "2023-03-09T19:18:40Z"
-    id: 6
-    revision: da95c44dd1b1b93b32c1912621a66f0675121d2c
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:21:40Z"
-    deployedAt: "2023-03-09T19:21:41Z"
-    id: 7
-    revision: 3b6b6b0cfaddcc3fa46ce9effb268466bc46932e
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T10:15:47Z"
-    deployedAt: "2023-03-10T10:15:48Z"
-    id: 8
-    revision: 079ca1f5b0b3575b6480eb5e2cdda2e801769cae
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:03:48Z"
-    deployedAt: "2023-03-10T18:03:50Z"
-    id: 9
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-04-21T16:58:35Z"
-    deployedAt: "2023-04-21T16:58:35Z"
-    id: 10
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/sms-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 11
@@ -1961,8 +2385,72 @@ status:
       path: services/sms-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 13
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:53:58Z"
+    deployedAt: "2023-05-02T06:53:58Z"
+    id: 14
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 15
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 16
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:05Z"
+    id: 17
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 18
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:28:16Z"
+    deployedAt: "2023-05-03T04:28:17Z"
+    id: 19
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 20
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/sms-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -1971,12 +2459,12 @@ status:
         limit: 5
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
         - PruneLast=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -2006,12 +2494,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/sms-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -2039,7 +2527,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-sms-service:8a403623d7020ba927f8a485ff902379d77ccc40-1
+    - ghcr.io/akalanka47000/pharmaceutical-sms-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -2049,7 +2537,128 @@ status:
         path: services/sms-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    status: Synced
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: support-service
+spec:
+  destination:
+    namespace: pharmaceutical
+    server: https://kubernetes.default.svc
+  project: pharmaceutical
+  source:
+    path: services/support-service
+    repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+    targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
+status:
+  health:
+    status: Healthy
+  history:
+  - deployStartedAt: "2023-05-03T04:48:31Z"
+    deployedAt: "2023-05-03T04:48:31Z"
+    id: 0
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/support-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  operationState:
+    finishedAt: "2023-05-03T04:48:31Z"
+    message: successfully synced (all tasks run)
+    operation:
+      initiatedBy:
+        automated: true
+      retry:
+        limit: 5
+      sync:
+        prune: true
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+        syncOptions:
+        - CreateNamespace=true
+    phase: Succeeded
+    startedAt: "2023-05-03T04:48:31Z"
+    syncResult:
+      resources:
+      - group: ""
+        hookPhase: Running
+        kind: Service
+        message: service/support-service created
+        name: support-service
+        namespace: pharmaceutical
+        status: Synced
+        syncPhase: Sync
+        version: v1
+      - group: apps
+        hookPhase: Running
+        kind: Deployment
+        message: deployment.apps/support-service created
+        name: support-service
+        namespace: pharmaceutical
+        status: Synced
+        syncPhase: Sync
+        version: v1
+      - group: bitnami.com
+        hookPhase: Running
+        kind: SealedSecret
+        message: sealedsecret.bitnami.com/support-service-secret created
+        name: support-service-secret
+        namespace: pharmaceutical
+        status: Synced
+        syncPhase: Sync
+        version: v1alpha1
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+      source:
+        path: services/support-service
+        repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+        targetRevision: HEAD
+  reconciledAt: "2023-05-03T04:48:31Z"
+  resources:
+  - health:
+      status: Healthy
+    kind: Service
+    name: support-service
+    namespace: pharmaceutical
+    status: Synced
+    version: v1
+  - group: apps
+    health:
+      status: Healthy
+    kind: Deployment
+    name: support-service
+    namespace: pharmaceutical
+    status: Synced
+    version: v1
+  - group: bitnami.com
+    health:
+      status: Healthy
+    kind: SealedSecret
+    name: support-service-secret
+    namespace: pharmaceutical
+    status: Synced
+    version: v1alpha1
+  sourceType: Directory
+  summary:
+    images:
+    - ghcr.io/akalanka47000/pharmaceutical-support-service:477cc2efcef61e99e93f9d79530fda768f2ed88b-1
+  sync:
+    comparedTo:
+      destination:
+        namespace: pharmaceutical
+        server: https://kubernetes.default.svc
+      source:
+        path: services/support-service
+        repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+        targetRevision: HEAD
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
 apiVersion: argoproj.io/v1alpha1
@@ -2084,70 +2693,6 @@ status:
   health:
     status: Healthy
   history:
-  - deployStartedAt: "2023-03-09T18:54:33Z"
-    deployedAt: "2023-03-09T18:54:34Z"
-    id: 41
-    revision: 4852e9479d95e2f479049e2552c2efbef19dc3e6
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T18:57:32Z"
-    deployedAt: "2023-03-09T18:57:34Z"
-    id: 42
-    revision: c988a1c6dc4f66857e67f02af43ed053f9268d29
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:18:44Z"
-    deployedAt: "2023-03-09T19:18:45Z"
-    id: 43
-    revision: da95c44dd1b1b93b32c1912621a66f0675121d2c
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-09T19:21:38Z"
-    deployedAt: "2023-03-09T19:21:39Z"
-    id: 44
-    revision: 3b6b6b0cfaddcc3fa46ce9effb268466bc46932e
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T10:12:54Z"
-    deployedAt: "2023-03-10T10:12:56Z"
-    id: 45
-    revision: 079ca1f5b0b3575b6480eb5e2cdda2e801769cae
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:03:48Z"
-    deployedAt: "2023-03-10T18:03:50Z"
-    id: 46
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-03-10T18:12:50Z"
-    deployedAt: "2023-03-10T18:12:51Z"
-    id: 47
-    revision: acbfbc3e40f4873323bb8a599e7c73af833442b8
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
-  - deployStartedAt: "2023-04-21T16:58:35Z"
-    deployedAt: "2023-04-21T16:58:35Z"
-    id: 48
-    revision: c2045ba5828d4e335c72815466bae5d28a155202
-    source:
-      path: services/user-service
-      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
-      targetRevision: HEAD
   - deployStartedAt: "2023-05-01T17:23:47Z"
     deployedAt: "2023-05-01T17:23:48Z"
     id: 49
@@ -2164,8 +2709,72 @@ status:
       path: services/user-service
       repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
       targetRevision: HEAD
+  - deployStartedAt: "2023-05-01T18:16:13Z"
+    deployedAt: "2023-05-01T18:16:13Z"
+    id: 51
+    revision: 55233e53d0444adf7ced51a6c8a4738ff76e5f5b
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T06:54:03Z"
+    deployedAt: "2023-05-02T06:54:03Z"
+    id: 52
+    revision: 50d61f84984b1bdac93899f7d733121a9198bccd
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T11:51:22Z"
+    deployedAt: "2023-05-02T11:51:22Z"
+    id: 53
+    revision: 5995146f8320a3254837f0ba889e25277d6cad65
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:39:04Z"
+    deployedAt: "2023-05-02T13:39:04Z"
+    id: 54
+    revision: bf761a285f3097b3cda826fedcd95d5a65c9d853
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T13:51:04Z"
+    deployedAt: "2023-05-02T13:51:04Z"
+    id: 55
+    revision: 04ad40fab467667bb7fcd47e8487b666fd81e1e3
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-02T14:54:04Z"
+    deployedAt: "2023-05-02T14:54:04Z"
+    id: 56
+    revision: c6283a6a2678e551e5ea97792af62bb68bca7158
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:22:37Z"
+    deployedAt: "2023-05-03T04:22:37Z"
+    id: 57
+    revision: 0f24def90da02da3a33a72c924a3f8f5a6d79855
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
+  - deployStartedAt: "2023-05-03T04:34:16Z"
+    deployedAt: "2023-05-03T04:34:16Z"
+    id: 58
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
+    source:
+      path: services/user-service
+      repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
+      targetRevision: HEAD
   operationState:
-    finishedAt: "2023-05-01T17:32:22Z"
+    finishedAt: "2023-05-03T04:34:16Z"
     message: successfully synced (all tasks run)
     operation:
       initiatedBy:
@@ -2178,11 +2787,11 @@ status:
         limit: 2
       sync:
         prune: true
-        revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+        revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
         syncOptions:
         - CreateNamespace=true
     phase: Succeeded
-    startedAt: "2023-05-01T17:32:22Z"
+    startedAt: "2023-05-03T04:34:16Z"
     syncResult:
       resources:
       - group: ""
@@ -2212,12 +2821,12 @@ status:
         status: Synced
         syncPhase: Sync
         version: v1alpha1
-      revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+      revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
       source:
         path: services/user-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-  reconciledAt: "2023-05-01T17:32:22Z"
+  reconciledAt: "2023-05-03T04:49:15Z"
   resources:
   - health:
       status: Healthy
@@ -2245,7 +2854,7 @@ status:
   sourceType: Directory
   summary:
     images:
-    - ghcr.io/akalanka47000/pharmaceutical-user-service:c59d154c62d3a96cb9d485ad5e3f76c8e11c34c1-1
+    - ghcr.io/akalanka47000/pharmaceutical-user-service:3e8749f240308773af4b0508a9245f9dd91c2ecd-1
   sync:
     comparedTo:
       destination:
@@ -2255,6 +2864,6 @@ status:
         path: services/user-service
         repoURL: https://github.com/Akalanka47000/pharmaceutical-kube-config.git
         targetRevision: HEAD
-    revision: 7c3c0438b92497bef9c9efb20c2e5d1507f3e4db
+    revision: 7bb30ff01c4aea3bf28b9b5e70171ab6a41c5678
     status: Synced
 ---
