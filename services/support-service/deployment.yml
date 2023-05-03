@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: support-service
-          image: ghcr.io/akalanka47000/pharmaceutical-support-service:477cc2efcef61e99e93f9d79530fda768f2ed88b-1
+          image: ghcr.io/akalanka47000/pharmaceutical-support-service:6eafb58f2150899244ad909e3838a31c1564daa7-1
           envFrom:
             - secretRef:
                 name: support-service-secret
